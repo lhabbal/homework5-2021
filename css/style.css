@@ -101,7 +101,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
   grid-template-rows: auto auto auto auto;
-  column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 header{
@@ -167,7 +167,7 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  align-items: center;
+  align-self: center;
 
 }
 
@@ -197,13 +197,13 @@ header{
   /*Req 12*/
   .about, .client, .method-image, .contact-image{
     /*Your code here:*/
-    grid-row: : 3 / span 2;
+    grid-row: 3 / span 2;
   }
 
   /*Req 13*/
   .about-image, .client-image, .method, .contacts{
     /*Your code here:*/
-    grid-row: : 2 / span 2;
+    grid-row: 2 / span 2;
   }
 }
 
